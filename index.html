@@ -4,6 +4,11 @@
 <title>longest url?</title>
 </head>
 <body>
-<button onclick="window.open(/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/q/w/e/r/t/y/u/i/o/p/a/s/d/f/j/k)">Go</button>
+  <script>
+    function openInNewTab() {
+     window.open('/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/q/w/e/r/t/y/u/i/o/p/a/s/d/f/j/k', '_blank').focus();
+    }
+  </script>
+<button onclick="openInNewTab()">Go</button>
 </body>
 </html>
